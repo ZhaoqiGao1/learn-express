@@ -33,7 +33,7 @@ app.use(
 );
 app.use(addMsgToRequest);
 
-app.use('/read', readUsers);
+app.use('/read/sa', readUsers);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/write', writeUsers);
